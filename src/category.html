@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"> <!-- Кодировка страницы -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Заголовок страницы</title> <!-- Заголовок страницы -->
+    <!-- Подключение стилей  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body> <!-- Тело страницы-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="d-flex flex-column flex-shrink-1 p-3 text-bg-dark" style="width: 300px; height: 100vh;"><a
+                    href="/"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30"
+                     height="24">
+                <span class="fs-4 ms-1">Меню</span> </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">
+                        <i class="bi bi-house-door"></i>
+                        Главная
+                    </a></li>
+                    <li><a href="#" class="nav-link text-white">
+                        <i class="bi bi-speedometer2"></i>
+                        Категории
+                    </a></li>
+                    <li><a href="#" class="nav-link text-white">
+                        <i class="bi bi-table"></i>
+                        Заказы
+                    </a></li>
+                    <li><a href="#" class="nav-link text-white">
+                        <i class="bi bi-person-circle"></i>
+                        Контакты
+                    </a></li>
+                </ul>
+                <hr>
+                <div class="dropdown"><a href="#"
+                                         class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                                         data-bs-toggle="dropdown" aria-expanded="false"> <img
+                        src="https://cdn.hk01.com/di/media/images/236161/org/78874d9a166d938504197dc4288d0554.jpg/Tn06HE0qwG0oF0hvlLR9P_F4kB3Lxk3NhqP0k4aj9JM?v=w1920"
+                        alt="" width="32" height="32"
+                        class="rounded-circle me-2">
+                    <strong>Пользователь</strong> </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1 class=" text-center"
+                style="height: 300px;  display: flex; align-items: center; justify-content: center; font-size: 60px;">
+                Категория 1</h1>
+
+            <!--Основа-->
+
+
+            <div class="row">
+                <div class="col-3" style="align-items: start;">
+                    <div class="card rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$100</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3" style="align-items: center;">
+                    <div class="card rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$100</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3" style="align-items: end;">
+                    <div class="card rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$100</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 mt-4" style="align-items: start;">
+                    <div class="card rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$100</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 mt-4" style="align-items: center;">
+                    <div class="card rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$100</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mt-4" style="align-items: end;">
+                    <div class="card rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$100</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+</html>
